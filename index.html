@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="style.css">   
+        <script type="text/javascript" src="script.js"></script>
+        <title>Encriptador de texto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+            <div class="logo"> 
+                <img class="logoImagen" src="imagen/challenges.png">
+                <h1 class="tittle">Encriptador de texto</h1>
+        </div>
+
+        <div class="left">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto que desee encriptar o desencriptar">
+        </div>
+
+        <div class="right">
+            <img id="imagenDerecha" src="imagen/Muñeco.png" >
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2"></textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡copiar!</button>
+        </div>
+        
+        <div class="left-button">
+            <p>Solo minusculas y sin acentos</p>
+            <button id="button-encriptar" onclick="encriptar()">Encriptar texto</button>
+            <button id="button-desencriptar" onclick="desencriptar()">Desencriptar texto</button>
+        </div>
+
+        <footer>
+            <img id="imagenFooter" src="imagen/alura img.png">
+            <p class="copyRight">&copy Copyright Alura - 2023</p>
+        </footer>
+    </body>
+
+</html>
